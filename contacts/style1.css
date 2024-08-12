@@ -1,7 +1,7 @@
 
 /* For Contact.HTML */
 #Contact {
-    background-image: url(contact.jpg);
+    background-image: url(/images/contact.jpg);
     /* background-color: #e2dad6; */
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;

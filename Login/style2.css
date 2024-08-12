@@ -1,6 +1,6 @@
 /* Login Page */
 #login {
-    background-image: url(contact.jpg);
+    background-image: url(/images/contact.jpg);
     background-size: cover ;
     font-family:Arial, Helvetica, sans-serif ;
     color: rgb(255, 255, 255);
@@ -54,7 +54,7 @@
     border-right: 0;
 }
 #welcome-image {
-    background-image: url(books.jpeg);
+    background-image: url(/images/books.jpeg);
     background-size: cover;
     height: 750px; 
     top: 100px;
