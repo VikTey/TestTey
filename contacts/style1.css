@@ -1,0 +1,66 @@
+
+/* For Contact.HTML */
+#Contact {
+    background-image: url(contact.jpg);
+    /* background-color: #e2dad6; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+  
+}
+
+h1{
+    text-align: center;
+}
+
+#form {
+    width: 40%;
+    margin: auto;
+    margin-top: 9%;
+    background-color: #c2c2c0;
+    padding: 20px 70px 70px 70px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px); 
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2), 5px 6px 20px 5px rgba(0, 0, 0, 0.19);
+}
+
+input{
+    position: absolute;
+    right: 50px;
+    font-weight: bolder;
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+label{
+    font-weight: bolder;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+select{
+    width: 42%;
+    padding: 5px;
+    Position:absolute;
+    margin: 0 0 10px;
+    right: 50px;
+}
+.submit{
+    position: relative;
+    margin:auto 50% ;
+    width: 20%;
+}
+.submit:hover{
+    background-color: lightslategray;
+}
+fieldset{
+    font-weight: bolder;
+    border: 2px black solid;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+fieldset input{
+    position: relative;
+    right: 0;
+    width: auto;
+}

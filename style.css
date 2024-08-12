@@ -1,0 +1,130 @@
+body {
+    background-color: #7f7d71;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    position: r;
+}
+.navbar img {
+    height: 40px;
+    margin-right: 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+.login-button {
+    margin-left: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: #45a049;
+}
+.container {
+    background-image: url(contacts/contact.jpg);
+    padding: 50px;
+    background-size: cover;
+    border-radius: 20px;
+    width: 80%;
+    margin: 4% auto;
+}
+.Profile{
+    width: 125px;
+    height: 125px;
+    border-radius: 75px;
+   
+    position: relative;
+}
+.about-content{
+    position: absolute;
+    display: inline-block;
+    padding: 0 20% 50% 2%;
+    width: 50%;
+    text-align: justify;
+}
+section{
+    border-radius: 15px 50px;
+    background-color: #e7e8d8;
+    padding: 3% 4% 5% 4%;
+    margin: 5% auto;
+    width: 75%;
+    
+}
+section a{
+    text-decoration: none;
+}
+.break {
+	border-top: 5px dashed darkslategray;
+    border-bottom: 0px;
+    width: 80%;
+}
+
+.back{
+    position: absolute;
+    margin: 4% 0 0 50% ;
+    border-radius: 20px;
+    
+}
+.second {
+    position: relative;
+    margin: 4% auto 7% auto;
+    width: 75%;
+}
+.second img{
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2), 5px 6px 20px 5px rgba(0, 0, 0, 0.19);
+}
+.second-body{
+    position: absolute;
+    top: 0;
+    margin: 6% 0 10% 20%;
+    width: 40%;
+    padding: 5% 0 5% 2%;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    border: 2px solid gray;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2), 5px 6px 20px 5px rgba(0, 0, 0, 0.19);
+}
+.start {
+    background-color: rgba(99, 99, 98, 0.86);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 35px
+}
+.stat:hover{
+    background-color: #312d2d;    
+} 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
